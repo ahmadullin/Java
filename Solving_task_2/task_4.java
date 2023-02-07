@@ -15,20 +15,40 @@ public class task_4 {
         in.close();
         
         StringBuilder sum = new StringBuilder();
-        sum.append(a).append(" + ").append(b).append(" = ").append(a + b);
+        sum
+            .append(a)
+            .append(" + ")
+            .append(b)
+            .append(" = ")
+            .append(a + b);
         System.out.println(sum);
 
         StringBuilder diff = new StringBuilder();
-        diff.append(a).append(" - ").append(b).append(" = ").append(a - b);
+        diff
+            .append(a)
+            .append(" - ")
+            .append(b)
+            .append(" = ")
+            .append(a - b);
         System.out.println(diff);
 
         StringBuilder mult = new StringBuilder();
-        mult.append(a).append(" * ").append(b).append(" = ").append(a * b);
+        mult
+            .append(a)
+            .append(" * ")
+            .append(b)
+            .append(" = ")            
+            .append(a * b);
         System.out.println(mult);
 
         StringBuilder div = new StringBuilder();
         String divformat = String.format("%.2f", (float)a / b);
-        div.append(a).append(" / ").append(b).append(" = ").append(divformat);
+        div
+            .append(a)
+            .append(" / ")
+            .append(b)
+            .append(" = ")
+            .append(divformat);
         System.out.print(div);
     }
 }
