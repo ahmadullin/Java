@@ -21,5 +21,7 @@ public class task_5 {
         rep.insert(i,"равно");
 
         System.out.println(rep);
+
+        
     }
 }
