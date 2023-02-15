@@ -18,7 +18,6 @@ public class task {
 
         File homeWork = new File("Solving_task_4\\H.W");
         FileWriter fw = null;
-        FileReader fr = null;
         ArrayList<String> list_index = new ArrayList<>();
         ArrayList<String> list_name = new ArrayList<>();
         ArrayList<String> list_surname = new ArrayList<>();
@@ -39,7 +38,6 @@ public class task {
 
         // Запись в list_index из файла HW.txt
         try (Scanner scanner = new Scanner(homeWork)) {
-            fr = new FileReader(homeWork);
             while (scanner.hasNextLine()){
                 String text = scanner.nextLine();
                 list_index.add(text);
