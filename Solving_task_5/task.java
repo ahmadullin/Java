@@ -12,8 +12,6 @@ import java.util.TreeMap;
  */
 public class task {
 
-    private static final String[] KeySet = null;
-
     public static void main(String[] args) {
         
         // Создание "HashMap" словаря
